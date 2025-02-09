@@ -6,14 +6,13 @@
 #define ROWS 5
 BleKeyboard bleKeyboard("Zro's Keyboard", "ZroIsHere", 100);
 
-uint16_t keys[ROWS][COLUMNS] = {
-  //{KEY_ESC, KEY_NUM_1, KEY_NUM_2, KEY_NUM_3, KEY_NUM_4, KEY_NUM_5, KEY_NUM_6, KEY_NUM_7, KEY_NUM_8, KEY_NUM_9, KEY_NUM_0, },
-  {},
-  {},
-  {},
-  {},
-  {}
-};
+/*uint8_t keys[ROWS][COLUMNS] = {
+  {KEY_ESC, KEY_NUM_1, KEY_NUM_2, KEY_NUM_3, KEY_NUM_4, KEY_NUM_5, KEY_NUM_6, KEY_NUM_7, KEY_NUM_8, KEY_NUM_9, KEY_NUM_0, "'", "¡", "DELETE", "macro1"},
+  {KEY_TAB, "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "`", "+", "ç", "macro2"},
+  {KEY_CAPS_LOCK, "a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ", "´", "ENTER", "macro3"},
+  {KEY_LEFT_SHIFT, "z", "x", "c", "v", "b", "n", "m", "<", ",", ".", KEY_RIGHT_SHIFT, KEY_UP_ARROW, "macro4"},
+  {KEY_LEFT_CTRL, KEY_LEFT_GUI, KEY_LEFT_ALT, "SPACE", KEY_RIGHT_ALT, "-", KEY_RIGHT_CTRL, KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW}
+};*/
 
 KeyboardManagement::KeyboardManagement(){
 
